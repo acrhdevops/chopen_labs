@@ -1,0 +1,10 @@
+Swarm Lab
+
+- Checkout this repo
+- Import the project into Eclipse
+- Run docker compose $ docker-compose up on the terminal (folder which contains docker-compose.yml)
+  (this starts a Postgres DB)
+- Add transations to Swarm
+- Needs the transactions fraction installed
+- Load Recipe-Ingredients without eager fetch
+ (needs a TX boundary on the REST endpoint in RecipeResource)
